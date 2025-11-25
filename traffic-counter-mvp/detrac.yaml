@@ -1,0 +1,13 @@
+# Path to the dataset (must be absolute path to avoid errors)
+path: C:/Users/HP/Desktop/PROJECTS/TrafficCV/traffic-counter-mvp/processed_dataset
+
+# Folders (relative to 'path')
+train: images/train
+val: images/train  # Using train as val for this MVP
+
+# Class Names
+names:
+  0: car
+  1: bus
+  2: van
+  3: others

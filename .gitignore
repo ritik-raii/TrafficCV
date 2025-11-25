@@ -1,0 +1,9 @@
+# Datasets
+DETRAC-Images/
+DETRAC-Train-Annotations-XML/
+DETRAC-Test-Annotations-XML/
+DETRAC-MOT Toolkit/
+
+# OS
+.DS_Store
+Thumbs.db

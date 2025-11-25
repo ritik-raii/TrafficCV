@@ -1,5 +1,5 @@
 # configs/config.yaml
-weights: "models/yolov8n.pt"   # default; user replaces with trained .pt later
+weights: "models/detrac_model.pt"   # Custom trained model
 imgsz: 640
 conf_threshold: 0.35
 iou_threshold: 0.45
@@ -10,17 +10,7 @@ count_line:                     # define counting line as two points (x,y)
 min_track_frames: 2
 min_bbox_area: 400
 class_names:
-  - motorcycle
-  - passenger_car
-  - light_commercial
-  - tractor_no_trailer
-  - tractor_with_trailer
+  - car
   - bus
-  - mc_scv
-  - trailer
-  - cycle
-  - cycle_rickshaw
-  - hand_cart
-  - horse_drawn
-  - bullock_cart
-  - bullock
+  - van
+  - others

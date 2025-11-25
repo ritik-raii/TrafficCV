@@ -16,6 +16,11 @@ data/raw_videos/*
 *.mp4
 *.avi
 
+# Training artifacts
+processed_dataset/
+runs/
+*.pt
+
 # IDE
 .vscode/
 .idea/
