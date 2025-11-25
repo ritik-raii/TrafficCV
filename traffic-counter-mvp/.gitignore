@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+env/
+venv/
+.venv/
+*.egg-info/
+
+# Data / outputs
+exports/
+models/*.pt
+data/raw_videos/*
+*.mp4
+*.avi
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
